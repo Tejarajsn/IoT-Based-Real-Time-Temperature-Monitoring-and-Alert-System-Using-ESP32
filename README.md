@@ -120,6 +120,14 @@ Electronics and Communication Engineering (ECE)
 - Adafruit IO
 - Wokwi Simulator
 
+- ## 📸 Project Output
+
+### Wokwi Simulation
+![Wokwi Simulation](wokwi-output.png)
+
+### Adafruit IO Dashboard
+![Adafruit IO Dashboard](adafruit-dashboard.png)
+
 ## 👨‍💻 Author
 
 **Tejaraj S Nidagundi**
