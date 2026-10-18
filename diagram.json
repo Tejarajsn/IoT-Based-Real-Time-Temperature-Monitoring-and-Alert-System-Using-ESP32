@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "author": "Tejaraj Nidagundi",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": -60.6, "left": 358, "attrs": {} },
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 129.6,
+      "left": -115.75,
+      "rotate": 90,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-ds18b20",
+      "id": "temp1",
+      "top": -39.53,
+      "left": 148.08,
+      "attrs": { "temperature": "59.4" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -64.8,
+      "left": -103.8,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": 89.54,
+      "left": 221.03,
+      "attrs": { "i2cAddress": "0x3c" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "r1:2", "esp:GND.1", "black", [ "h38.4", "v-10.8" ] ],
+    [ "bz1:1", "r1:1", "black", [ "v0" ] ],
+    [ "bz1:2", "esp:27", "green", [ "v0" ] ],
+    [ "temp1:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "temp1:DQ", "esp:17", "green", [ "v0" ] ],
+    [ "oled1:GND", "esp:GND.3", "black", [ "v0" ] ],
+    [ "oled1:VCC", "bb1:1t.b", "red", [ "v0" ] ],
+    [ "esp:5V", "bb1:1t.e", "red", [ "h-28.65", "v28.8", "h240", "v-192" ] ],
+    [ "temp1:VCC", "bb1:1t.a", "red", [ "v9.6", "h86.4", "v-28.8" ] ],
+    [ "oled1:SDA", "esp:21", "green", [ "v0" ] ],
+    [ "oled1:SCL", "esp:22", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
