@@ -92,6 +92,8 @@ A buzzer provides an alert when the temperature exceeds the configured threshold
 - ## 🔌 Circuit Diagram
 
 ![ESP32 Temperature Monitoring Circuit](circuit-diagram.png.png)
+- ### Adafruit IO Dashboard
+![Adafruit IO Dashboard](adafruit-dashboard.png)
 
 ## 🔗 Project Links
 
@@ -104,8 +106,6 @@ A buzzer provides an alert when the temperature exceeds the configured threshold
 - **GitHub Repository:** [View Source Code](https://github.com/Tejarajsn/IoT-Based-Real-Time-Temperature-Monitoring-and-Alert-System-Using-ESP32)
 - **Adafruit IO Dashboard:** [View Temperature Dashboard](https://io.adafruit.com/tejaraj_sn13/dashboards/temperature)
 
-- ### Adafruit IO Dashboard
-![Adafruit IO Dashboard](adafruit-dashboard.png)
 
 
 ## 👨‍💻 Author
