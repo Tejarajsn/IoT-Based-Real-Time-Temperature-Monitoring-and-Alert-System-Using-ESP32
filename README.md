@@ -104,6 +104,10 @@ A buzzer provides an alert when the temperature exceeds the configured threshold
 - **GitHub Repository:** [View Source Code](https://github.com/Tejarajsn/IoT-Based-Real-Time-Temperature-Monitoring-and-Alert-System-Using-ESP32)
 - **Adafruit IO Dashboard:** [View Temperature Dashboard](https://io.adafruit.com/tejaraj_sn13/dashboards/temperature)
 
+- ### Adafruit IO Dashboard
+![Adafruit IO Dashboard](adafruit-dashboard.png)
+
+
 ## 👨‍💻 Author
 
 **Tejaraj S Nidagundi**  
@@ -125,8 +129,6 @@ Electronics and Communication Engineering (ECE)
 ### Wokwi Simulation
 ![Wokwi Simulation](wokwi-output.png)
 
-### Adafruit IO Dashboard
-![Adafruit IO Dashboard](adafruit-dashboard.png)
 
 ## 👨‍💻 Author
 
