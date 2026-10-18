@@ -98,6 +98,28 @@ A buzzer provides an alert when the temperature exceeds the configured threshold
 - **Wokwi Simulation:** [Run the Project](https://wokwi.com/projects/475883163867999233)
 - **Adafruit IO Dashboard:** [View Temperature Dashboard](https://io.adafruit.com/tejaraj_sn13/dashboards/temperature)
 
+- ## 🔗 Project Links
+
+- **Wokwi Simulation:** [Run the ESP32 Temperature Monitor](https://wokwi.com/projects/475883163867999233)
+- **GitHub Repository:** [View Source Code](https://github.com/Tejarajsn/IoT-Based-Real-Time-Temperature-Monitoring-and-Alert-System-Using-ESP32)
+- **Adafruit IO Dashboard:** [View Temperature Dashboard](https://io.adafruit.com/tejaraj_sn13/dashboards/temperature)
+
+## 👨‍💻 Author
+
+**Tejaraj S Nidagundi**  
+Electronics and Communication Engineering (ECE)
+
+## 🛠️ Technologies Used
+
+- ESP32
+- DS18B20 Temperature Sensor
+- OLED Display (SSD1306)
+- Buzzer Alarm
+- Arduino C++
+- Wi-Fi
+- Adafruit IO
+- Wokwi Simulator
+
 ## 👨‍💻 Author
 
 **Tejaraj S Nidagundi**
