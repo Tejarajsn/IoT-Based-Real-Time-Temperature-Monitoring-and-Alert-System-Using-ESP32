@@ -89,6 +89,14 @@ A buzzer provides an alert when the temperature exceeds the configured threshold
 - OLED display: Working
 - High-temperature buzzer alert: Working
 - Adafruit IO cloud monitoring: Working
+- ## 🔌 Circuit Diagram
+
+![ESP32 Temperature Monitoring Circuit](circuit-diagram.png.png)
+
+## 🔗 Project Links
+
+- **Wokwi Simulation:** [Run the Project](https://wokwi.com/projects/475883163867999233)
+- **Adafruit IO Dashboard:** [View Temperature Dashboard](https://io.adafruit.com/tejaraj_sn13/dashboards/temperature)
 
 ## 👨‍💻 Author
 
