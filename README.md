@@ -78,6 +78,18 @@ A buzzer provides an alert when the temperature exceeds the configured threshold
 - Historical data logging
 - Additional environmental sensors
 
+- ## 🔗 Project Links
+
+- **Wokwi Simulation:** [Run the ESP32 Temperature Monitoring Project](https://wokwi.com/projects/475883163867999233)
+- **Adafruit IO Dashboard:** [View Temperature Dashboard](https://io.adafruit.com/tejaraj_sn13/dashboards/temperature)
+
+## 📌 Project Status
+
+- Temperature sensor: Working
+- OLED display: Working
+- High-temperature buzzer alert: Working
+- Adafruit IO cloud monitoring: Working
+
 ## 👨‍💻 Author
 
 **Tejaraj S Nidagundi**
